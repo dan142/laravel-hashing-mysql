@@ -17,5 +17,9 @@ Edit config/hashing.php and change the driver to either `mysqlpassword` or `mysq
 
 ### Using independently of the default driver
 You can specify the driver you'd like to use when using the Hash facade like so:
-`Hash::driver('mysqlpassword')->make("hash")`
-`Hash::driver('mysqloldpassword')->make("hash")`
+```
+Hash::driver('mysqlpassword')->make("hash");
+```
+```
+Hash::driver('mysqloldpassword')->make("hash");
+```
