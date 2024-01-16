@@ -1,5 +1,5 @@
 <?php
-namespace Dan142\LaravelHashingMySQL;
+namespace Dan142\LaravelHashingMySql;
 
 use Illuminate\Support\ServiceProvider;
 
